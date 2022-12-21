@@ -17,3 +17,12 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+
+
+
+.BsChevronCompactDown {
+  animation-name: chevronAnimation;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
