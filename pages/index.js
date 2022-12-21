@@ -21,11 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className='main'>
-        <div className='choice'>
-          <span>see in</span><span>fr</span><span>|</span><span>en</span>
-        </div>
+      <header>
+        <span>see in</span><span>fr</span><span>|</span><span>en</span>
+      </header>
 
+      <main className='main'>
         <div className='container'>
           <div id="landing">
             <h1 className='title'><strong>Clémence Guelque</strong><br />Développeuse Web Fullstack</h1>
@@ -52,7 +52,7 @@ export default function Home() {
             <Contact/>
 
         </div>
-        {/* <Footer/> */}
+        <Footer/>
       </main>
     </>
   )
