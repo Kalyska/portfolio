@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import { BsChevronCompactDown } from 'react-icons/bs'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.scss'
+import React from "react";
+import ReactDOM from "react-dom";
+// eslint-disable-next-line
+import "swiper/css/bundle";
+import Carousel from "../components/Carousel";
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
@@ -17,14 +21,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className={styles.main}>
-        <div className={styles.choice}>
+      <main className='main'>
+        <div className='choice'>
           <span>see in</span><span>fr</span><span>|</span><span>en</span>
         </div>
 
-        <div className={styles.center}>
+        <div className='container'>
           <div id="landing">
-            <h1 className={styles.title}><strong>Clémence Guelque</strong><br />Développeuse Web Fullstack</h1>
+            <h1 className='title'><strong>Clémence Guelque</strong><br />Développeuse Web Fullstack</h1>
             <div className="listWrapper">
               <div className="listRow">
                 
@@ -38,19 +42,16 @@ export default function Home() {
               <span>ensemble</span>
             </div>
 
-            <BsChevronCompactDown className='chevronDown' href='#projects' />
+            <a className='chevronDown' href='#carousel'><BsChevronCompactDown /></a>
           </div>
 
-          <div id="projects">
-
+          <div id="carousel">
+            <Carousel />
 
           </div>
+            <Contact/>
 
-          <div id="contact">
-            {/* <Contact/> */}
-          </div>
         </div>
-
         {/* <Footer/> */}
       </main>
     </>
