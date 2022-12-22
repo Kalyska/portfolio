@@ -33,11 +33,11 @@ export default function Home() {
 
             <div className="listWrapper">
               <div className="listRow">
-                <ul class="list">
-                  <li class="listItem">Créons</li>
-                  <li class="listItem">Développons</li>
-                  <li class="listItem">Réfléchissons</li>
-                  <li class="listItem">Travaillons</li>
+                <ul className="list">
+                  <li className="listItem">Créons</li>
+                  <li className="listItem">Développons</li>
+                  <li className="listItem">Réfléchissons</li>
+                  <li className="listItem">Travaillons</li>
                 </ul>                
               </div>
               <span>ensemble</span>

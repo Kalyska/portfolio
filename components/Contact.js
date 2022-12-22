@@ -7,8 +7,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, process.env.YOUR_PUBLIC_KEY)
+    emailjs.sendForm('service_q9rvdbb', 'template_9vu2mlh', form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -23,14 +22,14 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div className="flex">
           <div className="row">
-            <label for="inputName">Nom</label>
-            <input type="text" id="inputName" name="user_name" required></input>
-            <label for="inputEmail">Email</label>
-            <input type="email" id="inputEmail" name="user_email" required></input>
+            <label htmlFor="user_name">Nom</label>
+            <input type="text" id="user_name" required></input>
+            <label htmlFor="user_email" >Email</label>
+            <input type="email" id="user_email" required></input>
           </div>
           <div className="row">
-            <label for="textArea">Message</label>
-            <textarea id="textArea" name="message" required rows="5"></textarea>
+            <label htmlFor="message">Message</label>
+            <textarea id="message" required rows="5"></textarea>
           </div>
         </div>
         <button type="submit" value="Send">Envoyer</button>
