@@ -1,0 +1,28 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+@keyframes chevronAnimation {
+    from {
+      transform: translateY(0);
+    }
+  
+    to {
+      transform: translateY(10px);
+    }
+  }
+  
+  .chevronDown {
+    display: none;
+  
+    @include m.media (v.$sm-breakpoint) {
+      display: block;
+      position: absolute;
+      top: 94vh;
+      left: 47vw;
+      font-size: 3rem;
+      animation-name: chevronAnimation;
+      animation-duration: 1s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+  }
