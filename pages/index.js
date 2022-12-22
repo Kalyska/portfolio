@@ -5,6 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 // eslint-disable-next-line
 import "swiper/css/bundle";
+import Header from '../components/Header'
 import About from "../components/About";
 import Carousel from "../components/Carousel";
 import Contact from '../components/Contact'
@@ -22,9 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <header>
-        <span>see in</span><span>fr</span><span>|</span><span>en</span>
-      </header>
+      <Header/>
 
       <main className='main'>
         <div className='container'>
