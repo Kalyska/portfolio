@@ -221,7 +221,18 @@ a{
   83.3%,95.96% {transform:translate3d(0,-25%,0);}
 }
 
+/// INTRO ///
+
+#intro{
+  margin : auto;
+  font-size: 1.4rem;
+  max-width: 80%;
+}
+
 /// CAROUSEL ///
+#carousel{
+  height : 100vh;
+}
 .swiper {
   width: 100%;
   padding-top: 50px;
@@ -240,23 +251,48 @@ a{
   max-height: 80vh;
   margin : auto;
 }
-// .swiper {
-//   width: 100%;
-//   padding-top: 50px;
-//   padding-bottom: 50px;
-// }
 
-// .swiper-slide {
-//   background-position: center;
-//   background-size: cover;
-//   width: 300px;
-//   height: 300px;
-// }
+/// CONTACT ///
 
-// .swiper-slide img {
-//   display: block;
-//   width: 100%;
-// }
+#contact{
+  text-align: center;
+  font-size: 1.2rem;
+  h3{
+    font-size: 2rem;
+  }
+  hr{
+    width: 50%;
+    margin: 1rem auto;
+  }
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  .row{
+    flex-basis: 48%;
+  }
+}
+
+form{
+  margin: 1rem 0;
+  label{
+    text-align: left;
+    display: block
+  }
+  input, textarea{
+    width: 100%;
+    padding : .4rem;
+  }
+
+  button{
+    background-color: v.$color-shadow;
+    color: white;
+    padding : .6rem;
+    width : 25%
+  }
+}
 
 /// FOOTER ///
 
