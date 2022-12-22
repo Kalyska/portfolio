@@ -5,6 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 // eslint-disable-next-line
 import "swiper/css/bundle";
+import About from "../components/About";
 import Carousel from "../components/Carousel";
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -35,21 +36,23 @@ export default function Home() {
                 <ul class="list">
                   <li class="listItem">Créons</li>
                   <li class="listItem">Développons</li>
-                  <li class="listItem">Rions</li>
+                  <li class="listItem">Réfléchissons</li>
                   <li class="listItem">Travaillons</li>
                 </ul>                
               </div>
               <span>ensemble</span>
             </div>
 
-            <a className='chevronDown' href='#carousel'><BsChevronCompactDown /></a>
+            <a className='chevronDown' href='#projects'><BsChevronCompactDown /></a>
           </div>
 
-          <div id="carousel">
-            <Carousel />
-
+          <div id="projects">
+          <h3>Découvrez mes projets</h3><hr />
+          <About/>       
+          <Carousel />
           </div>
-            <Contact/>
+
+          <Contact/>
 
         </div>
         <Footer/>
