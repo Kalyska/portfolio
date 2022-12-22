@@ -7,7 +7,7 @@ const Footer=()=>{
     <footer>
         <a className='github' href='https://github.com/Kalyska'><strong><BsGithub /></strong><br/>Github</a>
         <a className='linkedin' href='https://linkedin.com/in/clemence-guelque'><strong><BsLinkedin /></strong><br/>LinkedIn</a>
-        <a className='cv'><strong><BsFileEarmarkPdf /></strong><br/>C.V.</a>
+        <a className='cv'  href="CV_Clemence_Guelque.pdf" download=""><strong><BsFileEarmarkPdf /></strong><br/>C.V.</a>
     </footer>
   )
 }
