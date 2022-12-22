@@ -29,9 +29,10 @@ export default function Home() {
         <div className='container'>
           <div id="landing">
             <h1 className='title'><strong>Clémence Guelque</strong><br />Développeuse Web Fullstack</h1>
+            <hr/>
+
             <div className="listWrapper">
               <div className="listRow">
-                
                 <ul class="list">
                   <li class="listItem">Créons</li>
                   <li class="listItem">Développons</li>
