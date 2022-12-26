@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Carousel from "../components/Carousel";
+// eslint-disable-next-line
+import "swiper/css/bundle";
+import { useTranslation } from 'react-i18next';
 
-const About=()=>{
-    return (
-        <p id="about">Après 10 ans dans la grande distribution, j&#39;ai récemment entrepris l&#39;aventure de me reconvertir dans le développement Web ! Les images étant plus parlantes que les longs discours, je vous laisse découvrir quelques uns de mes projets ci-dessous. N&#39;hésitez pas à me contacter, j&#39;ai hâte de travailler avec vous ! </p>
-    )
+const About = () => {
+  const { t } = useTranslation('fr', { useSuspense: false });
+  return (
+    <div id="projects">
+      <h3>{t('about.title')}</h3><hr />
+      <p id="about">{t('about.text')}</p>
+      <Carousel />
+    </div>
+  )
 }
 
 export default About

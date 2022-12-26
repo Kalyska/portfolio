@@ -1,17 +1,10 @@
-import Head from 'next/head'
-import { BsChevronCompactDown } from 'react-icons/bs'
-import { Inter } from '@next/font/google'
+import Head from 'next/head';
 import React from "react";
-import ReactDOM from "react-dom";
-// eslint-disable-next-line
-import "swiper/css/bundle";
-import Header from '../components/Header'
+import Header from '../components/Header';
+import Landing from '../components/Landing';
 import About from "../components/About";
-import Carousel from "../components/Carousel";
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
-
-const inter = Inter({ subsets: ['latin'] })
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -27,34 +20,11 @@ export default function Home() {
 
       <main className='main'>
         <div className='container'>
-          <div id="landing">
-            <h1 className='title'><strong>Clémence Guelque</strong><br />Développeuse Web Fullstack</h1>
-            <hr/>
-
-            <div className="listWrapper">
-              <div className="listRow">
-                <ul className="list">
-                  <li className="listItem">Créons</li>
-                  <li className="listItem">Développons</li>
-                  <li className="listItem">Réfléchissons</li>
-                  <li className="listItem">Travaillons</li>
-                </ul>                
-              </div>
-              <span>ensemble</span>
-            </div>
-
-            <a className='chevronDown' href='#projects'><BsChevronCompactDown /></a>
-          </div>
-
-          <div id="projects">
-          <h3>Découvrez mes projets</h3><hr />
+          <Landing/>
           <About/>       
-          <Carousel />
-          </div>
-
           <Contact/>
-
         </div>
+
         <Footer/>
       </main>
     </>

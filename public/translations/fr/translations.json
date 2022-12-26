@@ -1,0 +1,20 @@
+{
+    "landing":{
+        "dev": "Développeuse Web Fullstack",
+        "create": "Créons",
+        "develop": "Développons",
+        "brainstorm": "Réflechissons",
+        "work": "Travaillons",
+        "together": "ensemble"
+    },
+    "about":{
+        "title": "Découvrez mes projets",
+        "text": "Après 10 ans dans la grande distribution, j'ai récemment entrepris l'aventure de me reconvertir dans le développement Web ! Les images étant plus parlantes que les longs discours, je vous laisse découvrir quelques uns de mes projets ci-dessous. N'hésitez pas à me contacter, j'ai hâte de travailler avec vous !"
+    },
+    "contact":{
+        "text1": "Vous pouvez me contacter via LinkedIn",
+        "text2": "ou par email",
+        "name": "Nom",
+        "send": "Envoyer"
+    }
+}

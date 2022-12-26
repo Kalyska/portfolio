@@ -1,0 +1,20 @@
+{
+    "landing":{
+        "dev": "Fullstack Web Developer",
+        "create": "Let's create",
+        "develop": "Let's develop",
+        "brainstorm": "Let's brainstorm",
+        "work": "Let's work",
+        "together": "together"
+    },
+    "about":{
+        "title": "Some of my work",
+        "text": "After 10 years working in retail merchandising, I recently undertook the adventure of swirching to web developement ! In France we say 'pictures are worthiest than words', so I let you discover some of my projects below. Don't hesitate to contact me, I look forward working with you !"
+    },
+    "contact":{
+        "text1": "You can contact me via LinkedIn",
+        "text2": "or by email",
+        "name": "Name",
+        "send": "Send"
+    }
+}
