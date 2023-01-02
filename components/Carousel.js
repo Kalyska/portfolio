@@ -4,40 +4,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/scss";
-import "swiper/scss/effect-coverflow";
 import "swiper/scss/pagination";
+import "swiper/scss/navigation";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
-const Carousel=()=> {
+export const Carousel=()=>  {
   return (
     <>
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
+        spaceBetween={50}
         centeredSlides={true}
-        slidesPerView={"3"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src="img/1.png" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="img/2.png" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="img/3.png" />
-        </SwiperSlide>
+        <SwiperSlide><img src="img/wizard1.png" onClick/></SwiperSlide>
+        <SwiperSlide><img src="img/drink1.png" /></SwiperSlide>
+        <SwiperSlide><img src="img/cake1.png" /></SwiperSlide>
       </Swiper>
     </>
   );
