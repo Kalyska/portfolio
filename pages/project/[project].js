@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Image from 'next/image';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import projectsData from './projectsData';
 
 const Project = ({ data }) => {
@@ -26,6 +27,7 @@ const Project = ({ data }) => {
                 {/* BOUTON RETOUR ACCUEIL */}
                 <Image src={data.img3} alt="" width='300' height='150'/>
             </div>
+            <Footer/>
         </div>
     )
 }
