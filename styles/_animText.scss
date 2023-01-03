@@ -3,18 +3,16 @@
 
 .listWrapper {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 6rem;
     font-family: 'revonza';
-  
+
     @include m.media (v.$sm-breakpoint) {
       flex-direction: row;
-      .list{
-        text-align: right;
-      }
+      font-size: 3rem;
     }
   
     @include m.media (v.$md-breakpoint) {
@@ -22,10 +20,12 @@
     }
   
     span {
-      align-self: start;
-      margin:0 auto;
+      margin: 0 auto;
+      margin-top: -2rem;
+
       @include m.media (v.$sm-breakpoint) {
-      margin: 0;
+        align-self: start;
+        margin: 0;
       }
     }
   
