@@ -255,3 +255,17 @@ footer {
     margin: 1rem
   }
 }
+
+// PROJECT DETAILS
+
+.project-detail{
+  .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+  }
+}
+
+.top{
+  padding-top: 4rem;
+}

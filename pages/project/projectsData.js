@@ -30,8 +30,8 @@ const projectsData = [
         subhead: "projet de formation",
         tech: "techno utilisées :",
         techList: "html, css",
-        img1: "/../public/img/cake2.png",
-        img2: "/../public/img/cake3.png",
+        img1: "/../public/img/cake1.png",
+        img2: "/../public/img/cake2.png",
         img3: "",
         description: "blabla"
     }

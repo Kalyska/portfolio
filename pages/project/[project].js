@@ -3,31 +3,35 @@ import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import projectsData from './projectsData';
+// import { useTranslation } from 'react-i18next';
 
 const Project = ({ data }) => {
+    // const {t }= useTranslation('fr', {useSuspense: false});
+
     if (!data) {
         return <Fragment></Fragment>
     }
 
     return (
         <div className="project-detail">
-            <Header/>
-            <div className="row1">
-                <h2>{data.name}</h2>
-                <hr />
-                <div className="subhead">{data.subhead}</div>
-                <div className="tech-wrapper">{data.tech} {data.techList}</div>
-                <Image src={data.img1} alt="" width='300' height='150'/>
+            <Header />
+            <div className="row top">
+                <div className="project-title">
+                    <h2>{data.name}<hr /></h2>
+                    <div className="subhead">{data.subhead}</div>
+                    <div className="tech-wrapper">{data.tech} {data.techList}</div>
+                </div>
+                <Image src={data.img1} alt="" width='300' height='150' />
             </div>
-            <div className="row2">
-                <Image src={data.img2} alt="" width='300' height='150'/>
+            <div className="row">
+                <Image src={data.img2} alt="" width='300' height='150' />
                 <p>{data.description}</p>
             </div>
-            <div className="row3">
-                {/* BOUTON RETOUR ACCUEIL */}
-                <Image src={data.img3} alt="" width='300' height='150'/>
+            <div className="row">
+                <div>futur bouton retour accueil</div>
+                <Image src={data.img3} alt="" width='300' height='150' />
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
