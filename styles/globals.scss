@@ -145,25 +145,6 @@ hr {
 
 /// CAROUSEL ///
 
-// .swiper {
-//   width: 100%;
-//   padding-top: 50px;
-//   padding-bottom: 50px;
-//   margin-bottom: 1.6rem;
-//   max-height: 80vh;
-// }
-
-// .swiper-slide {
-//   background-position: center;
-//   background-size: cover;
-// }
-
-// .swiper-slide img {
-//   display: block;
-//   width: 100%;
-//   margin: auto;
-// }
-
 .swiper {
   width: 100%;
   @include m.media (v.$md-breakpoint) {
