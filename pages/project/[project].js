@@ -3,10 +3,17 @@ import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import projectsData from './projectsData';
-// import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const Project = ({ data }) => {
-    // const {t }= useTranslation('fr', {useSuspense: false});
+
+    const dataUrl = data.url
+
+    const {t }= useTranslation('fr', {useSuspense: false, keyPrefix :`projects`});
+    
+    console.log(data.url);
+
+    console.log(t(`${dataUrl}.name`));
 
     if (!data) {
         return <Fragment></Fragment>
@@ -17,9 +24,9 @@ const Project = ({ data }) => {
             <Header />
             <div className="row top">
                 <div className="project-title">
-                    <h2>{data.name}<hr /></h2>
-                    <div className="subhead">{data.subhead}</div>
-                    <div className="tech-wrapper">{data.tech} {data.techList}</div>
+                    <h2>{t(`${dataUrl}.name`)}<hr /></h2>
+                    <div className="subhead">{t(`${dataUrl}.subhead`)}</div>
+                    <div className="tech-wrapper">{t('statictext.tech')} {t(`${dataUrl}.techList`)}</div>
                 </div>
                 <Image src={data.img1} alt="" width='300' height='150' />
             </div>
@@ -34,6 +41,7 @@ const Project = ({ data }) => {
             <Footer />
         </div>
     )
+    
 }
 
 export default Project

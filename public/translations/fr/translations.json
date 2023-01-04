@@ -1,5 +1,5 @@
 {
-    "landing":{
+    "landing": {
         "dev": "Développeuse Web Fullstack",
         "create": "Créons",
         "develop": "Développons",
@@ -7,52 +7,43 @@
         "work": "Travaillons",
         "together": "ensemble"
     },
-    "about":{
+    "about": {
         "title": "Découvrez mes projets",
         "text": "Après 10 ans dans la grande distribution, j'ai récemment entrepris l'aventure de me reconvertir dans le développement Web ! Les images étant plus parlantes que les longs discours, je vous laisse découvrir quelques uns de mes projets ci-dessous. N'hésitez pas à me contacter, j'ai hâte de travailler avec vous !"
     },
-    "contact":{
+    "contact": {
         "text1": "Vous pouvez me contacter via LinkedIn",
         "text2": "ou par email",
         "name": "Nom",
         "send": "Envoyer"
     },
-    "projectsData":[
-        {
-            "id": 1,
-            "url": "wizard",
+    "projectDetail": {
+        "tech": "techno utilisées :"
+    },
+    "projects": {
+        "statictext": {
+            "tech": "techno utilisées :"
+        },
+        "wizard": {
+            "id": "wizard",
             "name": "Au sorcier moderne",
             "subhead": "projet de formation",
-            "tech": "techno utilisées :",
-            "techList": "react",
-            "img1": "/../public/img/wizard2.png",
-            "img2": "/../public/img/wizard3.png",
-            "img3": "/../public/img/wizard4.png",
+            "techList": "react, Sass",
             "description": "blabla"
         },
-        {
-            "id": 2,
-            "url": "drink",
+        "drink": {
+            "id": "drink",
             "name": "Drink 3000",
             "subhead": "projet de formation",
-            "tech": "techno utilisées :",
             "techList": "react",
-            "img1": "/../public/img/drink2.png",
-            "img2": "/../public/img/drink3.png",
-            "img3": "",
             "description": "blabla"
         },
-        {
-            "id": 3,
-            "url": "cake",
+        "cake": {
+            "id": "cake",
             "name": "Cake 3000",
             "subhead": "projet de formation",
-            "tech": "techno utilisées :",
             "techList": "html, css",
-            "img1": "/../public/img/cake1.png",
-            "img2": "/../public/img/cake2.png",
-            "img3": "",
             "description": "blabla"
         }
-    ]
+    }
 }

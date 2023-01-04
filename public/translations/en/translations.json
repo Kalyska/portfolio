@@ -1,5 +1,5 @@
 {
-    "landing":{
+    "landing": {
         "dev": "Fullstack Web Developer",
         "create": "We create",
         "develop": "We develop",
@@ -7,52 +7,40 @@
         "work": "We work",
         "together": "together"
     },
-    "about":{
+    "about": {
         "title": "Some of my work",
         "text": "After 10 years working in retail merchandising, I recently undertook the adventure of swirching to web developement ! In France we say 'pictures are worthiest than words', so I let you discover some of my projects below. Don't hesitate to contact me, I look forward working with you !"
     },
-    "contact":{
+    "contact": {
         "text1": "You can contact me via LinkedIn",
         "text2": "or by email",
         "name": "Name",
         "send": "Send"
     },
-    "projectsData":[
-        {
-            "id": 1,
-            "url": "wizard",
-            "name": "Au sorcier moderne",
+     "projects": {
+        "statictext": {
+            "tech": "created with :"
+        },
+        "wizard": {
+            "id": "wizard",
+            "name": "To the modern wizard",
             "subhead": "projet de formation",
-            "tech": "techno utilisées :",
             "techList": "react",
-            "img1": "/../public/img/wizard2.png",
-            "img2": "/../public/img/wizard3.png",
-            "img3": "/../public/img/wizard4.png",
             "description": "blabla"
         },
-        {
-            "id": 2,
-            "url": "drink",
+        "drink": {
+            "id": "drink",
             "name": "Drink 3000",
             "subhead": "projet de formation",
-            "tech": "techno utilisées :",
             "techList": "react",
-            "img1": "/../public/img/drink2.png",
-            "img2": "/../public/img/drink3.png",
-            "img3": "",
             "description": "blabla"
         },
-        {
-            "id": 3,
-            "url": "cake",
+        "cake": {
+            "id": "cake",
             "name": "Cake 3000",
             "subhead": "projet de formation",
-            "tech": "techno utilisées :",
             "techList": "html, css",
-            "img1": "/../public/img/cake1.png",
-            "img2": "/../public/img/cake2.png",
-            "img3": "",
             "description": "blabla"
         }
-    ]
+    }
 }
