@@ -8,12 +8,7 @@ import { useTranslation } from 'react-i18next';
 const Project = ({ data }) => {
 
     const dataUrl = data.url
-
     const {t }= useTranslation('fr', {useSuspense: false, keyPrefix :`projects`});
-    
-    console.log(data.url);
-
-    console.log(t(`${dataUrl}.name`));
 
     if (!data) {
         return <Fragment></Fragment>
@@ -26,17 +21,17 @@ const Project = ({ data }) => {
                 <div className="project-title">
                     <h2>{t(`${dataUrl}.name`)}<hr /></h2>
                     <div className="subhead">{t(`${dataUrl}.subhead`)}</div>
-                    <div className="tech-wrapper">{t('statictext.tech')} {t(`${dataUrl}.techList`)}</div>
+                    <div className="tech-wrapper">{t('statictext.tech')} {data.techList}</div>
                 </div>
-                <Image src={data.img1} alt="" width='300' height='150' />
+                <Image src={data.img1} alt="" width='900' height='450' />
             </div>
             <div className="row">
-                <Image src={data.img2} alt="" width='300' height='150' />
-                <p>{data.description}</p>
+                <Image src={data.img2} alt="" width='900' height='450' />
+                <p>{t(`${dataUrl}.description`)}</p>
             </div>
             <div className="row">
                 <div>futur bouton retour accueil</div>
-                <Image src={data.img3} alt="" width='300' height='150' />
+                <Image src={data.img3} alt="" width='900' height='450' />
             </div>
             <Footer />
         </div>
