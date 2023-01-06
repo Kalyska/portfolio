@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 const Project = ({ data }) => {
 
     const dataUrl = data.url
-    const {t }= useTranslation('fr', {useSuspense: false, keyPrefix :`projects`});
+    const { t } = useTranslation('fr', { useSuspense: false, keyPrefix: `projects` });
 
     if (!data) {
         return <Fragment></Fragment>
@@ -17,26 +17,32 @@ const Project = ({ data }) => {
     return (
         <div className="project-detail">
             <Header />
-            <div className="row top">
+            <div className="no-reverse">
                 <div className="project-title">
                     <h2>{t(`${dataUrl}.name`)}<hr /></h2>
                     <div className="subhead">{t(`${dataUrl}.subhead`)}</div>
                     <div className="tech-wrapper">{t('statictext.tech')} {data.techList}</div>
                 </div>
-                <Image src={data.img1} alt="" width='900' height='450' />
+                <div className="project-img">
+                    <Image src={data.img1} alt="" fill object-fit='contain' />
+                </div>
             </div>
-            <div className="row">
-                <Image src={data.img2} alt="" width='900' height='450' />
+            <div className="reverse">
                 <p>{t(`${dataUrl}.description`)}</p>
+                <div className="project-img">
+                    <Image src={data.img2} alt="" fill object-fit='contain' />
+                </div>
             </div>
-            <div className="row">
+            <div className="no-reverse">
                 <div>futur bouton retour accueil</div>
-                <Image src={data.img3} alt="" width='900' height='450' />
+                <div className="project-img">
+                    <Image src={data.img3} alt="" fill object-fit='contain' />
+                </div>
             </div>
             <Footer />
         </div>
     )
-    
+
 }
 
 export default Project

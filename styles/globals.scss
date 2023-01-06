@@ -68,7 +68,6 @@ header {
 
   span {
     margin: .2rem;
-
   }
 }
 
@@ -259,13 +258,55 @@ footer {
 // PROJECT DETAILS
 
 .project-detail{
-  .row{
+  width: 100vw;
+  padding-top: 4rem;
+
+  .no-reverse{
     display: flex;
-    justify-content: space-evenly;
-    margin: 2rem 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+    @include m.media (v.$md-breakpoint) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  .reverse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+
+    @include m.media (v.$md-breakpoint) {
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+
+    p{
+      max-width: 600px;
+      text-align: justify;
+      margin-left: 5rem;
+    }
   }
 }
 
-.top{
-  padding-top: 4rem;
+.project-img{
+  position: relative;
+  width: 100vw;
+  height: 50vw;
+
+  @include m.media (v.$md-breakpoint) {
+    width: 600px;
+    height: 300px;
+  }
+
+  @include m.media (v.$lg-breakpoint) {
+    width: 900px;
+    height: 450px;
+  }
 }
+
