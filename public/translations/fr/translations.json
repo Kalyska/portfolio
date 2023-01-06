@@ -17,9 +17,6 @@
         "name": "Nom",
         "send": "Envoyer"
     },
-    "projectDetail": {
-        "tech": "techno utilisées :"
-    },
     "projects": {
         "statictext": {
             "tech": "techno utilisées :"
@@ -27,23 +24,20 @@
         "wizard": {
             "id": "wizard",
             "name": "Au sorcier moderne",
-            "subhead": "projet de formation",
-            "techList": "react, Sass",
-            "description": "blabla"
+            "subhead": "Création d'un site marchand pour sorcières et sorciers",
+            "description": "Ce site se compose de trois pages. La première page sert à générer une nouvelle commande, avec la création d'un numéro de commande unique. La deuxième page permet d'afficher toutes les commandes déjà passées, y compris celles contenues dans le local storage. Pour les commandes qui n'ont pas encore été réglées, il est possible de modifier ou supprimer la commande. Et enfin la troisième page permet de sélectionner un commande non payée et de l'encaisser."
         },
         "drink": {
             "id": "drink",
             "name": "Drink 3000",
-            "subhead": "projet de formation",
-            "techList": "react",
-            "description": "blabla"
+            "subhead": "Site vitrine d'un fabriquant de boissons personnalisées",
+            "description": "Création d'un site vitrine en SPA (Single Page Application), avec des filtres de sélection de boisson pour l'émission du devis."
         },
         "cake": {
             "id": "cake",
             "name": "Cake 3000",
-            "subhead": "projet de formation",
-            "techList": "html, css",
-            "description": "blabla"
+            "subhead": "Site vitrine d'un salon de thé",
+            "description": "Création d'un site vitrine en SPA (Single Page Application), avec formulaire de réservation."
         }
     }
 }

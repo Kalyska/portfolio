@@ -24,23 +24,20 @@
         "wizard": {
             "id": "wizard",
             "name": "To the modern wizard",
-            "subhead": "projet de formation",
-            "techList": "react",
-            "description": "blabla"
+            "subhead": "Creation of an e-commerce site for witches and wizards",
+            "description": "This site consists of three pages. The first page is used to generate a new order, with the creation of a unique order number. The second page is used to display all orders already placed, including those contained in the local storage. For orders that have not yet been settled, it is possible to modify or delete the order. And finally the third page allows you to select an unpaid order for collecting it."
         },
         "drink": {
             "id": "drink",
             "name": "Drink 3000",
-            "subhead": "projet de formation",
-            "techList": "react",
-            "description": "blabla"
+            "subhead": "Internet storefront for a custom drink manufacturer",
+            "description": "Creation of a SPA (Single Page Application) storefont, with filters for the drink selection."
         },
         "cake": {
             "id": "cake",
             "name": "Cake 3000",
-            "subhead": "projet de formation",
-            "techList": "html, css",
-            "description": "blabla"
+            "subhead": "Internet storefront for a tea shop",
+            "description": "Creation of a SPA (Single Page Application) storefont, with reservation form."
         }
     }
 }
