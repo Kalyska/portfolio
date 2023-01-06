@@ -9,7 +9,6 @@ const projectsData = [
         img1: "/../public/img/wizard2.png",
         img2: "/../public/img/wizard3.png",
         img3: "/../public/img/wizard4.png",
-        description: "blabla"
     },
     {
         id: 2,
@@ -20,8 +19,7 @@ const projectsData = [
         techList: "react",
         img1: "/../public/img/drink2.png",
         img2: "/../public/img/drink3.png",
-        img3: "",
-        description: "blabla"
+        img3: "/../public/img/drink4.png",
     },
     {
         id: 3,
@@ -30,10 +28,9 @@ const projectsData = [
         subhead: "projet de formation",
         tech: "techno utilisées :",
         techList: "html, css",
-        img1: "/../public/img/cake1.png",
-        img2: "/../public/img/cake2.png",
-        img3: "",
-        description: "blabla"
+        img1: "/../public/img/cake2.png",
+        img2: "/../public/img/cake3.png",
+        img3: "/../public/img/cake4.png",
     }
 ]
 
