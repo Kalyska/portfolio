@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import projectsData from './projectsData';
 import { useTranslation } from 'react-i18next';
+import {AiFillHome} from 'react-icons/ai';
 
 const Project = ({ data }) => {
 
@@ -14,6 +15,9 @@ const Project = ({ data }) => {
         return <Fragment></Fragment>
     }
 
+    const techDisplay= data.techList.map((tech)=><Image src={tech} alt="" width={80} height={80}/>)
+    console.log(data.techList)
+
     return (
         <div className="project-detail">
             <Header />
@@ -21,7 +25,7 @@ const Project = ({ data }) => {
                 <div className="project-title">
                     <h2>{t(`${dataUrl}.name`)}<hr /></h2>
                     <div className="subhead">{t(`${dataUrl}.subhead`)}</div>
-                    <div className="tech-wrapper">{t('statictext.tech')} {data.techList}</div>
+                    <div className="tech-wrapper">{t('statictext.tech')} <span>{techDisplay}</span></div>
                 </div>
                 <div className="project-img">
                     <Image src={data.img1} alt="" fill object-fit='contain' />
@@ -34,7 +38,10 @@ const Project = ({ data }) => {
                 </div>
             </div>
             <div className="no-reverse">
-                <div>futur bouton retour accueil</div>
+                <a className='home-icon' href={'/'}>
+                    <AiFillHome />
+                    <span>{t(`statictext.gohome`)}</span>
+                </a>
                 <div className="project-img">
                     <Image src={data.img3} alt="" fill object-fit='contain' />
                 </div>

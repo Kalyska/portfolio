@@ -19,7 +19,8 @@
     },
     "projects": {
         "statictext": {
-            "tech": "techno utilisées :"
+            "tech": "techno utilisées :",
+            "gohome": "Retour à la page d'accueil"
         },
         "wizard": {
             "id": "wizard",
@@ -31,13 +32,13 @@
             "id": "drink",
             "name": "Drink 3000",
             "subhead": "Site vitrine d'un fabriquant de boissons personnalisées",
-            "description": "Création d'un site vitrine en SPA (Single Page Application), avec des filtres de sélection de boisson pour l'émission du devis."
+            "description": "Création d'un site vitrine avec des filtres de sélection de boisson pour l'émission du devis."
         },
         "cake": {
             "id": "cake",
             "name": "Cake 3000",
             "subhead": "Site vitrine d'un salon de thé",
-            "description": "Création d'un site vitrine en SPA (Single Page Application), avec formulaire de réservation."
+            "description": "Création d'un site vitrine avec formulaire de réservation."
         }
     }
 }

@@ -19,7 +19,8 @@
     },
      "projects": {
         "statictext": {
-            "tech": "created with :"
+            "tech": "created with :",
+            "gohome": "Back home"
         },
         "wizard": {
             "id": "wizard",
@@ -31,13 +32,13 @@
             "id": "drink",
             "name": "Drink 3000",
             "subhead": "Internet storefront for a custom drink manufacturer",
-            "description": "Creation of a SPA (Single Page Application) storefont, with filters for the drink selection."
+            "description": "Creation of an internet storefont, with filters for the drink selection."
         },
         "cake": {
             "id": "cake",
             "name": "Cake 3000",
             "subhead": "Internet storefront for a tea shop",
-            "description": "Creation of a SPA (Single Page Application) storefont, with reservation form."
+            "description": "Creation of an internet storefont, with reservation form."
         }
     }
 }

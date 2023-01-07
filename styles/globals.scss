@@ -292,6 +292,11 @@ footer {
       margin-left: 5rem;
     }
   }
+
+  p{
+    font-family: 'dayroman';
+    font-size: 1.2rem;
+  }
 }
 
 .project-img{
@@ -310,3 +315,33 @@ footer {
   }
 }
 
+.project-title{
+
+  font-family: var(--font-mono);
+
+  h2{
+    font-family: 'revonza';
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+
+  .tech-wrapper{
+    margin-top: 2rem;
+
+    span{
+      display: block;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.home-icon{
+  font-size: 2rem;
+  text-decoration: none;
+
+  span{
+    display: block;
+    font-size: .85rem;
+    font-family: var(--font-mono);
+  }
+}
