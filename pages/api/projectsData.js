@@ -1,9 +1,9 @@
-const REACT="/../public/img/tech/react.png"
-const JS= "/../public/img/tech/js.png"
-const BS= "/../public/img/tech/bs.png"
-const SASS= "/../public/img/tech/sass.png"
-const CSS ="/../public/img/tech/css.png"
-const HTML= "/../public/img/tech/html.png"
+const REACT="/img/tech/react.png"
+const JS= "/img/tech/js.png"
+const BS= "/img/tech/bs.png"
+const SASS= "/img/tech/sass.png"
+const CSS ="/img/tech/css.png"
+const HTML= "/img/tech/html.png"
 
 
 const projectsData = [
@@ -14,9 +14,9 @@ const projectsData = [
         techList: [
             REACT, SASS
         ],
-        img1: "/../public/img/wizard2.png",
-        img2: "/../public/img/wizard3.png",
-        img3: "/../public/img/wizard4.png",
+        img1: "/img/wizard2.png",
+        img2: "/img/wizard3.png",
+        img3: "/img/wizard4.png",
     },
     {
         id: 2,
@@ -25,9 +25,9 @@ const projectsData = [
         techList:  [
             HTML, JS, SASS
         ],
-        img1: "/../public/img/drink4.png",
-        img2: "/../public/img/drink2.png",
-        img3: "/../public/img/drink3.png",
+        img1: "/img/drink4.png",
+        img2: "/img/drink2.png",
+        img3: "/img/drink3.png",
     },
     {
         id: 3,
@@ -36,9 +36,9 @@ const projectsData = [
         techList:  [
             HTML, CSS, BS
         ],
-        img1: "/../public/img/cake2.png",
-        img2: "/../public/img/cake3.png",
-        img3: "/../public/img/cake4.png",
+        img1: "/img/cake2.png",
+        img2: "/img/cake3.png",
+        img3: "/img/cake4.png",
     }
 ]
 
