@@ -1,5 +1,6 @@
 import React from "react";
 import {useRouter} from'next/router';
+import Image from 'next/image';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,9 +34,9 @@ export const Carousel=()=>  {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="img/wizard1.png" onClick={() => handleClick("wizard")} /></SwiperSlide>
-        <SwiperSlide><img src="img/drink1.png" onClick={() => handleClick("drink")}/></SwiperSlide>
-        <SwiperSlide><img src="img/cake1.png" onClick={() => handleClick("cake")}/></SwiperSlide>
+        <SwiperSlide><Image className='img' src="/img/wizard1.png" alt="" fill object-fit='contain' onClick={() => handleClick("wizard")} /></SwiperSlide>
+        <SwiperSlide><Image className='img' src="/img/drink1.png" alt="" fill object-fit='contain' onClick={() => handleClick("drink")}/></SwiperSlide>
+        <SwiperSlide><Image className='img' src="/img/cake1.png" alt="" fill object-fit='contain' onClick={() => handleClick("cake")}/></SwiperSlide>
       </Swiper>
     </>
   );
