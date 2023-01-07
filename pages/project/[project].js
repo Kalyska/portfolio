@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import projectsData from './projectsData';
+import projectsData from '../api/projectsData';
 import { useTranslation } from 'react-i18next';
 import {AiFillHome} from 'react-icons/ai';
 
