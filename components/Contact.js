@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div id='contact'>
       <h3>Contact</h3><hr />
-      <p>{t('contact.text1')} <a target="_blank" href='https://linkedin.com/in/clemence-guelque'><BsLinkedin /></a> {t('contact.text2')} :</p>
+      <p>{t('contact.text1')} <a target="_blank" rel="noopener" href='https://linkedin.com/in/clemence-guelque'><BsLinkedin /></a> {t('contact.text2')} :</p>
       <form ref={form} onSubmit={sendEmail}>
         <div className="flex">
           <div className="row">

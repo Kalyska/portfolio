@@ -15,8 +15,7 @@ const Project = ({ data }) => {
         return <Fragment></Fragment>
     }
 
-    const techDisplay= data.techList.map((tech)=><Image src={tech} alt="" width={80} height={80}/>)
-    console.log(data.techList)
+    const techDisplay= data.techList.map((tech)=><Image src={tech} key={tech} alt="" width={80} height={80}/>)
 
     return (
         <div className="project-detail">
