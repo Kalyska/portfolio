@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const About = () => {
   const { t } = useTranslation('fr', { useSuspense: false });
+
   return (
     <div id="projects">
       <h3>{t('about.title')}</h3><hr />

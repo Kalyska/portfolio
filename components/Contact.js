@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import {BsLinkedin} from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
@@ -10,13 +10,13 @@ const Contact = () => {
     e.preventDefault();
     emailjs.sendForm('service_q9rvdbb', 'template_9vu2mlh', form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
 
-  const {t }= useTranslation('fr', {useSuspense: false});
+  const { t } = useTranslation('fr', { useSuspense: false });
 
   return (
     <div id='contact'>

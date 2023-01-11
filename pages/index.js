@@ -5,8 +5,15 @@ import Landing from '../components/Landing';
 import About from "../components/About";
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import { useTranslation } from 'react-i18next';
+import Loading from '../components/Loading';
 
 export default function Home() {
+
+  const { ready } = useTranslation('fr', { useSuspense: false });
+
+  if (!ready) return <Loading />
+
   return (
     <>
       <Head>
@@ -16,16 +23,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <Header/>
+      <Header />
 
       <main className='main'>
         <div className='container'>
-          <Landing/>
-          <About/>       
-          <Contact/>
+          <Landing />
+          <About />
+          <Contact />
         </div>
 
-        <Footer/>
+        <Footer />
       </main>
     </>
   )

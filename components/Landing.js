@@ -3,7 +3,8 @@ import { BsChevronCompactDown } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
 const Landing = () => {
-  const {t}= useTranslation('fr', {useSuspense: false});
+  const { t } = useTranslation('fr', { useSuspense: false });
+
   return (<div id="landing">
     <h1 className='title'><strong>Clémence Guelque</strong><br />{t('landing.dev')}</h1>
     <hr />

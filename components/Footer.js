@@ -1,13 +1,12 @@
-import {BsLinkedin, BsGithub, BsFileEarmarkPdf} from 'react-icons/bs'
-import {IoLocationSharp} from 'react-icons/io'
+import { BsLinkedin, BsGithub, BsFileEarmarkPdf } from 'react-icons/bs'
 import React from 'react'
 
-const Footer=()=>{
+const Footer = () => {
   return (
     <footer>
-        <a className='github'  target="_blank" rel="noreferrer" href='https://github.com/Kalyska'><strong><BsGithub /></strong><br/>Github</a>
-        <a className='linkedin'  target="_blank" rel="noreferrer" href='https://linkedin.com/in/clemence-guelque'><strong><BsLinkedin /></strong><br/>LinkedIn</a>
-        <a className='cv'  href="CV_Clemence_Guelque.pdf" download><strong><BsFileEarmarkPdf /></strong><br/>C.V.</a>
+      <a className='github' target="_blank" rel="noreferrer" href='https://github.com/Kalyska'><strong><BsGithub /></strong><br />Github</a>
+      <a className='linkedin' target="_blank" rel="noreferrer" href='https://linkedin.com/in/clemence-guelque'><strong><BsLinkedin /></strong><br />LinkedIn</a>
+      <a className='cv' href="CV_Clemence_Guelque.pdf" download><strong><BsFileEarmarkPdf /></strong><br />C.V.</a>
     </footer>
   )
 }
