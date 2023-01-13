@@ -67,7 +67,7 @@ header {
   margin-top: 2rem;
 
   span {
-    margin: .2rem;
+    cursor: pointer;
   }
 }
 
@@ -95,6 +95,7 @@ header {
 
 .title {
   text-align: center;
+
   @include m.media (v.$md-breakpoint) {
     padding-top: 18vh;
   }
@@ -146,9 +147,11 @@ hr {
 
 .swiper {
   width: 100%;
+
   @include m.media (v.$md-breakpoint) {
     width: 70%
   }
+
   height: 70vh
 }
 
@@ -156,7 +159,7 @@ hr {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
+  cursor: pointer;
 }
 
 .swiper-slide .img {
@@ -217,7 +220,7 @@ form {
   }
 
   button {
-    border:none;
+    border: none;
     background-color: v.$color-shadow;
     color: white;
     padding: .6rem;
@@ -225,7 +228,7 @@ form {
     margin-top: 1rem;
     border-radius: 5px;
 
-    &:hover{
+    &:hover {
       background-color: teal;
     }
   }
@@ -259,10 +262,10 @@ footer {
 
 // PROJECT DETAILS
 
-.project-detail{
+.project-detail {
   padding-top: 4rem;
 
-  .no-reverse{
+  .no-reverse {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,32 +278,32 @@ footer {
     }
   }
 
-  .reverse{
+  .reverse {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
-    
+
 
     @include m.media (v.$md-breakpoint) {
       flex-direction: row-reverse;
       justify-content: center;
     }
 
-    p{
+    p {
       max-width: 600px;
       text-align: justify;
       padding: 3rem;
     }
   }
 
-  p{
+  p {
     font-family: 'dayroman';
     font-size: 1.2rem;
   }
 }
 
-.project-img{
+.project-img {
   position: relative;
   width: 100vw;
   height: 50vw;
@@ -316,31 +319,31 @@ footer {
   }
 }
 
-.project-title{
+.project-title {
 
   font-family: var(--font-mono);
 
-  h2{
+  h2 {
     font-family: 'revonza';
     text-transform: uppercase;
     letter-spacing: .1rem;
   }
 
-  .tech-wrapper{
+  .tech-wrapper {
     margin-top: 2rem;
 
-    span{
+    span {
       display: block;
       margin-top: 1rem;
     }
   }
 }
 
-.home-icon{
+.home-icon {
   font-size: 2rem;
   text-decoration: none;
 
-  span{
+  span {
     display: block;
     font-size: .85rem;
     font-family: var(--font-mono);
