@@ -301,6 +301,11 @@ footer {
     font-family: 'dayroman';
     font-size: 1.2rem;
   }
+
+  header p{
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+  }
 }
 
 .project-img {
@@ -327,6 +332,7 @@ footer {
     font-family: 'revonza';
     text-transform: uppercase;
     letter-spacing: .1rem;
+    font-size: 1.6rem;
   }
 
   .tech-wrapper {
