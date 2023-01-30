@@ -4,6 +4,8 @@ const BS= "/img/tech/bs.png"
 const SASS= "/img/tech/sass.png"
 const CSS ="/img/tech/css.png"
 const HTML= "/img/tech/html.png"
+const mySQL= "/img/tech/mysql.png"
+const PHP= "/img/tech/php.png"
 
 
 const projectsData = [
@@ -39,6 +41,17 @@ const projectsData = [
         img1: "/img/cake2.png",
         img2: "/img/cake3.png",
         img3: "/img/cake4.png",
+    },
+    {
+        id: 4,
+        url: "movieshuffle",
+        name: "Movieshuffle",
+        techList:  [
+            mySQL, PHP
+        ],
+        img1: "/img/movieshuffle2.png",
+        img2: "/img/movieshuffle3.png",
+        img3: "/img/movieshuffle4.png",
     }
 ]
 

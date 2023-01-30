@@ -39,6 +39,12 @@
             "name": "Cake 3000",
             "subhead": "Site vitrine d'un salon de thé",
             "description": "Création d'un site vitrine avec formulaire de réservation."
+        },
+        "movieshuffle":{
+            "id": "movieshuffle",
+            "name": "Movieshuffle",
+            "subhead": "Création d'une base de données cinéma, et d'un moteur de recherche associé.",
+            "description": "Le site Movieshuffle est un moteur de recherche permettant de rechercher des films, et de retrouver des informations comme leur date de sortie, leur durée, leur synopsis, et surtout leur bande annonce."
         }
     }
 }

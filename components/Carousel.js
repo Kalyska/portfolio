@@ -37,6 +37,7 @@ export const Carousel=()=>  {
         <SwiperSlide><Image className='img' src="/img/wizard1.png" alt="" fill object-fit='contain' onClick={() => handleClick("wizard")} /></SwiperSlide>
         <SwiperSlide><Image className='img' src="/img/drink1.png" alt="" fill object-fit='contain' onClick={() => handleClick("drink")}/></SwiperSlide>
         <SwiperSlide><Image className='img' src="/img/cake1.png" alt="" fill object-fit='contain' onClick={() => handleClick("cake")}/></SwiperSlide>
+        <SwiperSlide><Image className='img' src="/img/movieshuffle1.png" alt="" fill object-fit='contain' onClick={() => handleClick("movieshuffle")}/></SwiperSlide>
       </Swiper>
     </>
   );
