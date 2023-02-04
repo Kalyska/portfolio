@@ -52,6 +52,17 @@ const projectsData = [
         img1: "/img/movieshuffle2.png",
         img2: "/img/movieshuffle3.png",
         img3: "/img/movieshuffle4.png",
+    },
+    {
+        id: 5,
+        url: "phpmon",
+        name: "Pokemon PHP Battle",
+        techList: [
+            mySQL, PHP
+        ],
+        img1: "/img/phpmon2.png",
+        img2: "/img/phpmon3.png",
+        img3: "/img/phpmon4.png",
     }
 ]
 
