@@ -17,7 +17,7 @@
         "name": "Name",
         "send": "Send"
     },
-     "projects": {
+    "projects": {
         "statictext": {
             "tech": "created with :",
             "gohome": "Back home"
@@ -40,11 +40,17 @@
             "subhead": "Internet storefront for a tea shop",
             "description": "Creation of an internet storefont, with reservation form."
         },
-        "movieshuffle":{
+        "movieshuffle": {
             "id": "movieshuffle",
             "name": "Movieshuffle",
             "subhead": "Creation of a movies database, with a search engine.",
             "description": "The Movieshuffle website is a search engine allowing to research movies to watch, and giving some informations like release date, duration, synopsis, and most of all official trailer."
+        },
+        "phpmon": {
+            "id": "phpmon",
+            "name": "Pokemon PHP Battle",
+            "subhead": "Creation of a Pokecards game",
+            "description": "First you have a menu to select your Pokemon. Under its illustration you can see its type and its power. Once your Pokemon is selected, the duel begins. The opponent is chosen randomly. The Pokemons'types and their attacks are taken into account in the calculation of the damages. So it won't always be the most powerful Pokémon that wins... Feel free to download the game on my Github to test it ! (for personnal use only)"
         }
     }
 }

@@ -1,11 +1,11 @@
-const REACT="/img/tech/react.png"
-const JS= "/img/tech/js.png"
-const BS= "/img/tech/bs.png"
-const SASS= "/img/tech/sass.png"
-const CSS ="/img/tech/css.png"
-const HTML= "/img/tech/html.png"
-const mySQL= "/img/tech/mysql.png"
-const PHP= "/img/tech/php.png"
+const REACT = "/img/tech/react.png"
+const JS = "/img/tech/js.png"
+const BS = "/img/tech/bs.png"
+const SASS = "/img/tech/sass.png"
+const CSS = "/img/tech/css.png"
+const HTML = "/img/tech/html.png"
+const mySQL = "/img/tech/mysql.png"
+const PHP = "/img/tech/php.png"
 
 
 const projectsData = [
@@ -24,7 +24,7 @@ const projectsData = [
         id: 2,
         url: "drink",
         name: "Drink 3000",
-        techList:  [
+        techList: [
             HTML, JS, SASS
         ],
         img1: "/img/drink4.png",
@@ -35,7 +35,7 @@ const projectsData = [
         id: 3,
         url: "cake",
         name: "Cake 3000",
-        techList:  [
+        techList: [
             HTML, CSS, BS
         ],
         img1: "/img/cake2.png",
@@ -46,12 +46,23 @@ const projectsData = [
         id: 4,
         url: "movieshuffle",
         name: "Movieshuffle",
-        techList:  [
+        techList: [
             mySQL, PHP
         ],
         img1: "/img/movieshuffle2.png",
         img2: "/img/movieshuffle3.png",
         img3: "/img/movieshuffle4.png",
+    },
+    {
+        id: 5,
+        url: "phpmon",
+        name: "Pokemon PHP Battle",
+        techList: [
+            PHP
+        ],
+        img1: "/img/phpmon2.png",
+        img2: "/img/phpmon3.png",
+        img3: "/img/phpmon4.png",
     }
 ]
 

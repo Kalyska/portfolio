@@ -25,7 +25,7 @@
         "wizard": {
             "id": "wizard",
             "name": "Au sorcier moderne",
-            "subhead": "Création d'un site marchand pour sorcières et sorciers",
+            "subhead": "Création d'une borne de caisse d'une boutique d'ingrédients pour sorcières et sorciers",
             "description": "Ce site se compose de trois pages. La première page sert à générer une nouvelle commande, avec la création d'un numéro de commande unique. La deuxième page permet d'afficher toutes les commandes déjà passées, y compris celles contenues dans le local storage. Pour les commandes qui n'ont pas encore été réglées, il est possible de modifier ou supprimer la commande. Et enfin la troisième page permet de sélectionner un commande non payée et de l'encaisser."
         },
         "drink": {
@@ -40,11 +40,17 @@
             "subhead": "Site vitrine d'un salon de thé",
             "description": "Création d'un site vitrine avec formulaire de réservation."
         },
-        "movieshuffle":{
+        "movieshuffle": {
             "id": "movieshuffle",
             "name": "Movieshuffle",
             "subhead": "Création d'une base de données cinéma, et d'un moteur de recherche associé.",
             "description": "Le site Movieshuffle est un moteur de recherche permettant de rechercher des films, et de retrouver des informations comme leur date de sortie, leur durée, leur synopsis, et surtout leur bande annonce."
+        },
+        "phpmon": {
+            "id": "phpmon",
+            "name": "Pokemon PHP Battle",
+            "subhead": "Création d'un jeu de cartes",
+            "description": "Le jeu s'ouvre sur un menu pour sélectionner son Pokémon. Sous son illustration on peut voir son type et sa puissance. A la sélection, le duel commence. L'adversaire est désigné aléatoirement. Le type des Pokémons et de leurs attaques est pris en compte dans le calcul des dégâts. Ainsi ce n'est pas toujours le Pokémon le plus puissant qui gagne... N'hésitez pas à télécharger le jeu sur mon Github pour le tester ! (pour un usage personnel uniquement)"
         }
     }
 }
