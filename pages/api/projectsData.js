@@ -58,7 +58,7 @@ const projectsData = [
         url: "phpmon",
         name: "Pokemon PHP Battle",
         techList: [
-            mySQL, PHP
+            PHP, SASS
         ],
         img1: "/img/phpmon2.png",
         img2: "/img/phpmon3.png",
